@@ -1,0 +1,16 @@
+{% extends 'payments/base.html' %}
+
+{% block title %}Stripe Checkout Demo{% endblock %}
+
+{% block header %}Stripe Checkout Demo{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Stripe Integration Demo</h2>
+    <p>This is a simple demonstration of Stripe checkout integration with Django.</p>
+    
+    <div class="form-group">
+        <a href="{% url 'create_checkout_session' %}">
+            <button>Buy Now</button>
+        </a>
+    </div>
+{% endblock %}

@@ -1,0 +1,12 @@
+env
+# Python
+__pycache__/
+
+db.sqlite3
+media/
+staticfiles/
+
+# Secret keys
+*.env
+.env.*
+
